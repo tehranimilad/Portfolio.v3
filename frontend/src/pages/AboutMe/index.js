@@ -3,7 +3,7 @@ import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle } from 'mdb-react-ui-k
 import headshot from './assets/headshot.png';
 import './index.css';
 
-const Aboutme = () => {
+function Aboutme () {
     return (
         <div class="text-center">
         <MDBCard background='dark' className='text-white'>
