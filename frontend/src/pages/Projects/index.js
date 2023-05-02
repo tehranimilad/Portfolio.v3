@@ -9,7 +9,7 @@ function Projects() {
     <MDBRow>
       <MDBCol sm='6'>
         <MDBCard>
-          <MDBCardBody>
+          <MDBCardBody class="dark">
           <img class="img-fluid" src={cruiseAmerica}></img>
             <MDBCardTitle>Cruise America</MDBCardTitle>
             <MDBCardText>

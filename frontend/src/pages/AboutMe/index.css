@@ -1,4 +1,6 @@
 .avatar {
     max-width: 25%;
     margin: 0 auto;
+    border-radius: 150px;
+    padding: 15px;
 }

@@ -7,7 +7,7 @@ function Nav() {
       <MDBContainer fluid>
         <MDBNavbarBrand href='/'>Milad Tehrani</MDBNavbarBrand>
           <MDBNavbarNav>
-            <MDBNavbarLink active aria-current='page' href='#'>
+            <MDBNavbarLink aria-current='page' href='/'>
               Home
             </MDBNavbarLink>
             <MDBNavbarLink href='/projects'>Projects</MDBNavbarLink>
