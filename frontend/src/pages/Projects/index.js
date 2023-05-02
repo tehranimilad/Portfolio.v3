@@ -1,13 +1,6 @@
 import React from 'react';
-import {
-  MDBCard,
-  MDBCardBody,
-  MDBCardTitle,
-  MDBCardText,
-  MDBRow,
-  MDBCol,
-  MDBBtn
-} from 'mdb-react-ui-kit';
+import {MDBCard,MDBCardBody,MDBCardTitle,MDBCardText,MDBRow,MDBCol,MDBBtn, MDBImg} from 'mdb-react-ui-kit';
+import cruiseAmerica from './assets/screenRecording1.gif'
 
 function Projects() {
   return (
@@ -15,6 +8,7 @@ function Projects() {
       <MDBCol sm='6'>
         <MDBCard>
           <MDBCardBody>
+          <img class="img-fluid" src={cruiseAmerica}></img>
             <MDBCardTitle>Cruise America</MDBCardTitle>
             <MDBCardText>
             MEN-stack app with full CRUD functionality using Javascript on Node.js and Express frameworks; data stored using MongoDB database through Mongoose, and used EJS partials
