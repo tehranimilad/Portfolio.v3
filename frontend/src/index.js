@@ -1,14 +1,14 @@
 import React from 'react';
-import { createRoot } from "react-dom/client";
+import ReactDOM from 'react-dom/client';
 import './index.css';
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import App from './App';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-const container = document.getElementById("root");
-const root = createRoot(container);
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <Router>
     <App />
-  </React.StrictMode>
+  </Router>
 );
+

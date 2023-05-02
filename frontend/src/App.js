@@ -2,6 +2,8 @@ import React from 'react';
 import Nav from './components/nav';
 import Footer from './components/footer';
 import Projects from './pages/Projects';
+import Aboutme from './pages/AboutMe';
+import { Routes, Route } from "react-router-dom";
 
 
 export default function App() {
@@ -9,7 +11,13 @@ export default function App() {
     <div>
     <Nav />
     <Projects />
+    <Aboutme />
     <Footer />
+    <Routes>
+      <Route path="/aboutme" element={<Aboutme />} />
+      <Route path="/projects" element={<Projects />} />
+    </Routes>
+
     </div>
   );
 }
