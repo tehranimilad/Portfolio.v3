@@ -1,6 +1,7 @@
 import React from 'react';
 import {MDBCard,MDBCardBody,MDBCardTitle,MDBCardText,MDBRow,MDBCol,MDBBtn, MDBImg} from 'mdb-react-ui-kit';
 import cruiseAmerica from './assets/screenRecording1.gif'
+import cruiseAmerica2 from './assets/screenRecording2.gif'
 
 function Projects() {
   return (
@@ -22,6 +23,7 @@ function Projects() {
       <MDBCol sm='6'>
         <MDBCard>
           <MDBCardBody>
+          <img class="img-fluid" src={cruiseAmerica2}></img>
             <MDBCardTitle>Cryptosis</MDBCardTitle>
             <MDBCardText>
             MERN-stack app with full CRUD functionality using Javascript on Node.js,Express, and React frameworks; relational database stored using MongoDB database through Mongoose. Cryptosis uses third-party API's in order to retrieve Cryptocurrency relevant data. 
