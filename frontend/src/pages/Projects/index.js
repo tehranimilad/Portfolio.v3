@@ -6,6 +6,7 @@ import cruiseAmerica2 from './assets/screenRecording2.gif'
 function Projects() {
   return (
     <div class="text-center">
+      <MDBCardTitle>Projects</MDBCardTitle>
     <MDBRow>
       <MDBCol sm='6'>
         <MDBCard>

@@ -5,6 +5,16 @@
     padding: 15px;
 }
 
-body {
+.homeHeader {
     font-family: 'Unbounded', cursive;
 }
+
+.homePageDiv {
+    height: 100vh;
+    background-size: cover;
+}
+
+.navTop  {
+    margin-bottom: 20px;
+}
+
