@@ -12,6 +12,7 @@
 .homePageDiv {
     height: 100vh;
     background-size: cover;
+    margin-top: 50px;
 }
 
 .navTop  {
