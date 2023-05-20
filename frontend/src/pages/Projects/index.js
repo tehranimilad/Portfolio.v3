@@ -2,6 +2,7 @@ import React from 'react';
 import {MDBCard,MDBCardBody,MDBCardTitle,MDBCardText,MDBRow,MDBCol,MDBBtn, MDBImg} from 'mdb-react-ui-kit';
 import cruiseAmerica from './assets/screenRecording1.gif'
 import cruiseAmerica2 from './assets/screenRecording2.gif'
+import './index.css';
 
 function Projects() {
   return (

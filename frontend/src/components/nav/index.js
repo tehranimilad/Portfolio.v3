@@ -10,7 +10,7 @@ function Nav() {
             <MDBNavbarLink aria-current='page' href='/'>
               Home
             </MDBNavbarLink>
-            <MDBNavbarLink href='/projects'>Projects</MDBNavbarLink>
+            <MDBNavbarLink href='#projects-section'>Projects</MDBNavbarLink>
             <MDBNavbarLink href='/aboutme'>About Me</MDBNavbarLink>
           </MDBNavbarNav>
       </MDBContainer>
