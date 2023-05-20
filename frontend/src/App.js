@@ -11,7 +11,9 @@ export default function App() {
     <div>
     <Nav />
     <div className="homepage-container">
+    <div id="about-me">
     <HomePage />
+    </div>
     <div id="projects-section">
       <Projects />
     </div>
