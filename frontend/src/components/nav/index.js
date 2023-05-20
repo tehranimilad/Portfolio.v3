@@ -9,7 +9,7 @@ function Nav() {
           <MDBNavbarNav>
             <MDBNavbarLink href='#about-me'>About Me</MDBNavbarLink>
             <MDBNavbarLink href='#projects-section'>Projects</MDBNavbarLink>
-            <MDBNavbarLink aria-current='page' href='/'>Resume</MDBNavbarLink>
+            <MDBNavbarLink aria-current='page' href='https://docs.google.com/document/d/1MzWaSuGeCjDPhTjd3XrxExC7DQkJxuk7/edit?usp=sharing&ouid=117772898957068889268&rtpof=true&sd=true' target="blank">Resume</MDBNavbarLink>
           </MDBNavbarNav>
       </MDBContainer>
     </MDBNavbar>
