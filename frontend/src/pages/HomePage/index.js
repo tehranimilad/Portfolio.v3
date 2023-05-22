@@ -14,7 +14,7 @@ return (
     <h4 className='mb-3'>I'm a Software Engineer</h4>
     <div class="text-center">
         <MDBCardImage position='top' className="avatar" src={headshot}></MDBCardImage>
-          <MDBCardBody>
+          <MDBCardBody className="aboutDescription">
             I am a highly skilled software engineer with a background in Management Information Systems, dedicated to delivering innovative solutions that improve business processes and drive results. With a passion for technology, I leverage my expertise to solve complex problems and help businesses achieve their goals. 
           </MDBCardBody>
           <MDBCardTitle>
