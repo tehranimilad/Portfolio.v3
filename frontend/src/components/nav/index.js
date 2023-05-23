@@ -5,7 +5,7 @@ function Nav() {
   return (
     <MDBNavbar className="navTop" fixed='top' expand='lg'dark bgColor='dark'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='/'>Milad Tehrani</MDBNavbarBrand>
+        <MDBNavbarBrand>Milad Tehrani</MDBNavbarBrand>
           <MDBNavbarNav>
             <MDBNavbarLink href='#about-me'>About Me</MDBNavbarLink>
             <MDBNavbarLink href='#projects-section'>Projects</MDBNavbarLink>
