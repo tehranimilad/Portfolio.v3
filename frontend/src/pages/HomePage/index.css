@@ -6,12 +6,11 @@
 }
 
 .homeHeader {
-    font-family: 'Unbounded', cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .homePageDiv {
     height: 100vh;
-    background-size: cover;
 }
 
 .aboutDescription {
@@ -20,5 +19,9 @@
 }
 
 .icons {
-    padding-top: 115px;
+    padding-top: 80px;
+}
+
+h1 {
+    font-size: 50px;
 }
