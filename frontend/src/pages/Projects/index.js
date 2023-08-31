@@ -8,7 +8,7 @@ function Projects() {
   return (
     <div className="projectDiv">
     <div class="text-center">
-      <MDBCardTitle>Projects</MDBCardTitle>
+      <h1>Projects</h1>
     <MDBRow>
       <MDBCol sm='6'>
         <MDBCard>
