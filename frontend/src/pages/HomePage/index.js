@@ -9,9 +9,18 @@ return (
   <div className="homePageDiv">
    <div className="homeHeader">
     <div className='p-5 text-center bg-dark text-light'>
-    <h1 className='mb-6'>Hi, nice to meet you!</h1>
+    <h1 class="ml1">
+  <span class="text-wrapper">
+    <span class="line line1"></span>
+    <span class="letters">My name is Milad Tehrani</span>
+    <br />
+    <span class="letters">I'm a Software Engineer</span>
+    <span class="line line2"></span>
+  </span>
+</h1>
+    {/* <h1 className='mb-6'>Hi, nice to meet you!</h1>
     <h1 className='mb-3'>My name is Milad Tehrani</h1>
-    <h1 className='mb-3'>I'm a Software Engineer</h1>
+    <h1 className='mb-3'>I'm a Software Engineer</h1> */}
     <div class="text-center">
         <MDBCardImage position='top' className="avatar" src={headshot}></MDBCardImage>
           <MDBCardBody className="aboutDescription">
