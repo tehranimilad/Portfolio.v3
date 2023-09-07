@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle } from 'mdb-react-ui-kit';
+import { MDBCardBody, MDBCardImage, MDBCardTitle } from 'mdb-react-ui-kit';
 import headshot from './assets/headshot.png';
 import { MDBIcon } from 'mdb-react-ui-kit';
 import './index.css';
@@ -17,7 +17,9 @@ return (
     <span class="letters">I'm a Software Engineer</span>
     <span class="line line2"></span>
   </span>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </h1>
+
     {/* <h1 className='mb-6'>Hi, nice to meet you!</h1>
     <h1 className='mb-3'>My name is Milad Tehrani</h1>
     <h1 className='mb-3'>I'm a Software Engineer</h1> */}
@@ -34,8 +36,11 @@ return (
     </div>
     </div>
     </div>
+    
 
 );
+
+
 }
 
 export default HomePage
