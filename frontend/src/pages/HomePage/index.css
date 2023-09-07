@@ -3,6 +3,7 @@
     margin: 0 auto;
     border-radius: 150px;
     padding: 15px;
+    padding-top: 30px;
 }
 
 .homeHeader {
@@ -15,11 +16,12 @@
 
 .aboutDescription {
     font-size: 29px;
+    padding-top: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .icons {
-    padding-top: 60px;
+    padding-top: 95px;
 }
 
 h1 {

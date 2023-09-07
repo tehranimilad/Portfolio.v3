@@ -45,7 +45,7 @@ function HomePage() {
               <span class="line line1"></span>
               <span class="letters">Hi Nice to meet you!</span>
               <br />
-              <span class="letters">I'm a Software Engineer</span>
+              <span class="letters">My name is Milad, and I'm a Software Engineer</span>
               <span class="line line2"></span>
             </span>
           </h1>
