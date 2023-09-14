@@ -2,8 +2,8 @@
     max-width: 20%;
     margin: 0 auto;
     border-radius: 150px;
-    padding: 15px;
-    padding-top: 30px;
+    padding: 5px;
+    border: 5px solid #000000;
 }
 
 .homeHeader {
