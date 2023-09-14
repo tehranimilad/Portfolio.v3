@@ -20,7 +20,7 @@ function Projects() {
                 Utilized Railway to deploy a full stack app; two models with full CRUD functionality
                 Created wireframes and drafted user stories using Wireframe Pro.
             </MDBCardText>
-            <MDBBtn href='https://cruise-north-america.herokuapp.com/' target="_blank">Go to Cruise America</MDBBtn>
+            <MDBBtn className="cruiseAmerica-link" href='https://cruise-north-america.herokuapp.com/' target="_blank">Go to Cruise America</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -32,7 +32,7 @@ function Projects() {
             <MDBCardText>
             MERN-stack app with full CRUD functionality using Javascript on Node.js,Express, and React frameworks; relational database stored using MongoDB database through Mongoose. Cryptosis uses third-party API's in order to retrieve Cryptocurrency relevant data. 
             </MDBCardText>
-            <MDBBtn href='https://cryptosis-app.herokuapp.com/' target="_blank">Go to Cryptosis</MDBBtn>
+            <MDBBtn className="cryptosis-link" href='https://cryptosis-app.herokuapp.com/' target="_blank">Go to Cryptosis</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
