@@ -7,12 +7,12 @@ import anime from "animejs";
 
 function HomePage() {
   useEffect(() => {
-    var textWrapper = document.querySelector('.ml1 .letters');
+    var textWrapper = document.querySelector('.animationHead .letters');
     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
     anime.timeline({ loop: true })
       .add({
-        targets: '.ml1 .letter',
+        targets: '.animationHead .letter',
         scale: [0.3, 1],
         opacity: [0, 1],
         translateZ: 0,
@@ -20,7 +20,7 @@ function HomePage() {
         duration: 600,
         delay: (el, i) => 70 * (i + 1)
       }).add({
-        targets: '.ml1 .line',
+        targets: '.animationHead .line',
         scaleX: [0, 1],
         opacity: [0.5, 1],
         easing: "easeOutExpo",
@@ -28,7 +28,7 @@ function HomePage() {
         offset: '-=875',
         delay: (el, i, l) => 80 * (l - i)
       }).add({
-        targets: '.ml1',
+        targets: '.animationHead',
         opacity: 0,
         duration: 1000,
         easing: "easeOutExpo",
@@ -40,7 +40,7 @@ function HomePage() {
     <div className="homePageDiv">
       <div className="homeHeader">
         <div className='p-5 text-center bg-dark text-light'>
-          <h1 class="ml1">
+          <h1 class="animationHead">
             <span class="text-wrapper">
               <span class="line line1"></span>
               <span class="letters">Hi Nice to meet you!</span>
