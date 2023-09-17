@@ -40,16 +40,16 @@ function HomePage() {
     <div className="homePageDiv">
       <div className="homeHeader">
         <div className='p-5 text-center bg-dark text-light'>
-          <h1 class="animationHead">
-            <span class="text-wrapper">
-              <span class="line line1"></span>
-              <span class="letters">Hi Nice to meet you!</span>
+          <h1 className="animationHead">
+            <span className="text-wrapper">
+              <span className="line line1"></span>
+              <span className="letters">Hi Nice to meet you!</span>
               <br />
-              <span class="letters">My name is Milad, and I'm a Software Engineer</span>
-              <span class="line line2"></span>
+              <span className="letters">My name is Milad, and I'm a Software Engineer</span>
+              <span className="line line2"></span>
             </span>
           </h1>
-          <div class="text-center">
+          <div className="text-center">
             <MDBCardImage position='top' className="avatar" src={headshot}></MDBCardImage>
             <MDBCardBody className="aboutDescription">
               I am a highly skilled software engineer with a background in Management Information Systems, dedicated to delivering innovative solutions that improve business processes and drive results. With a passion for technology, I leverage my expertise to solve complex problems and help businesses achieve their goals.
