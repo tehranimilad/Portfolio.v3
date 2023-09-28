@@ -16,7 +16,7 @@ export default function App() {
     <div id="projects-section">
       {/* <Projects /> */}
     </div>
-    {/* <Footer /> */}
+    <Footer />
   </div>
 
     </div>

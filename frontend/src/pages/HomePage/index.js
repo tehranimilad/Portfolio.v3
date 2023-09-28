@@ -41,7 +41,7 @@ function HomePage() {
       <h1 className="ml1">
         <span className="text-wrapper">
           <span className="line line1"></span>
-          <span className="letters">Hi,my name is Milad and I'm a software engineer</span>
+          <span className="letters">Hi, my name is Milad and I'm a Software Engineer</span>
           <span className="line line2"></span>
         </span>
       </h1>
