@@ -37,23 +37,25 @@ function HomePage() {
   }, []);
 
   return (
-    <div className="avatar-div">
-      {/* <MDBCardImage position='top' className="avatar" src={headshot}></MDBCardImage> */}
-      <div className="animation-container">
-        <h1 className="ml1">
-          <span className="text-wrapper">
-            <span className="line line1"></span>
-            <span className="letters">Hi, my name is Milad and I'm a Software Engineer</span>
-            <span className="line line2"></span>
-          </span>
-        </h1>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-      </div>
-      <div>
-      <h1 className="icons">
-              <h2>Skills</h2>
-              <MDBIcon fab icon="css3" /> <MDBIcon fab icon="css3-alt" /> <MDBIcon fas icon="database" /> <MDBIcon fab icon="github-square" /> <MDBIcon fab icon="html5" /> <MDBIcon fab icon="js" /> <MDBIcon fab icon="node" /> <MDBIcon fab icon="npm" /> <MDBIcon fab icon="python" /> <MDBIcon fab icon="react" /> <MDBIcon fab icon="sass" /> <MDBIcon fab icon="wordpress" /> <MDBIcon fab icon="bootstrap" />
-            </h1>
+    <div className="main-div">
+      <div className="avatar-div">
+        {/* <MDBCardImage position='top' className="avatar" src={headshot}></MDBCardImage> */}
+        <div className="animation-container">
+          <h1 className="ml1">
+            <span className="text-wrapper">
+              <span className="line line1"></span>
+              <span className="letters">Hi, my name is Milad and I'm a Software Engineer</span>
+              <span className="line line2"></span>
+            </span>
+          </h1>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        </div>
+        <div>
+        <h1 className="icons">
+                <h2 className="skills">Skills:</h2>
+                <MDBIcon fab icon="css3" /> <MDBIcon fab icon="css3-alt" /> <MDBIcon fas icon="database" /> <MDBIcon fab icon="github-square" /> <MDBIcon fab icon="html5" /> <MDBIcon fab icon="js" /> <MDBIcon fab icon="node" /> <MDBIcon fab icon="npm" /> <MDBIcon fab icon="python" /> <MDBIcon fab icon="react" /> <MDBIcon fab icon="sass" /> <MDBIcon fab icon="wordpress" /> <MDBIcon fab icon="bootstrap" />
+              </h1>
+        </div>
       </div>
     </div>
   );
