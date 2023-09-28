@@ -3,7 +3,7 @@ import {MDBContainer,MDBNavbar,MDBNavbarBrand,MDBNavbarNav,MDBNavbarLink,} from 
 
 function Nav() {
   return (
-    <MDBNavbar className="navTop" fixed='top' expand='lg'dark bgColor='dark'>
+    <MDBNavbar className="navTop" fixed='top' expand='lg'light bgColor='light'>
       <MDBContainer fluid>
         <MDBNavbarBrand>Milad Tehrani</MDBNavbarBrand>
           <MDBNavbarNav>
