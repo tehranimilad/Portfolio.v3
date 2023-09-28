@@ -14,9 +14,9 @@ export default function App() {
     <HomePage />
     </div>
     <div id="projects-section">
-      <Projects />
+      {/* <Projects /> */}
     </div>
-    <Footer />
+    {/* <Footer /> */}
   </div>
 
     </div>

@@ -7,8 +7,6 @@ import anime from "animejs";
 
 function HomePage() {
   useEffect(() => {
-    var textWrapper = document.querySelector('.animationHead .letters');
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
     anime.timeline({loop: true})
     .add({
@@ -56,10 +54,22 @@ function HomePage() {
     easing: "linear",
     loop: true
   });
+  }, []);
 
   return (
-    <div className="homePageDiv">
-      <div className="homeHeader">
+    <div>
+      <h1 class="ml8">
+  <span class="letters-container">
+    <span class="letters letters-left">Hi Nice to meet you!</span>
+    <span class="letters bang">!</span>
+  </span>
+  <span class="circle circle-white"></span>
+  <span class="circle circle-dark"></span>
+  <span class="circle circle-container"><span class="circle circle-dark-dashed"></span></span>
+      </h1>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      {/* <div className="homeHeader">
         <div className='p-5 text-center bg-dark text-light'>
           <h1 className="animationHead">
             <span className="text-wrapper">
@@ -81,7 +91,7 @@ function HomePage() {
             </h1>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
