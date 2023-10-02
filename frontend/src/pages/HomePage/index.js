@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle } from 'mdb-react-ui-kit';
+import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBRow,  MDBCardText} from 'mdb-react-ui-kit';
 import headshot from './assets/headshot.png';
 import { MDBIcon } from 'mdb-react-ui-kit';
 import './index.css';
@@ -50,6 +50,19 @@ function HomePage() {
             </span>
           </h1>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+          <div>
+          <MDBRow>
+            <MDBCard className="about-me-description">
+              <MDBCardBody class="dark">
+                <MDBCardText>
+                I'm a highly skilled software engineer with a background in management information systems who is 
+                committed to providing cutting-edge solutions that enhance operational efficiency and provide outcomes. 
+                I have a passion for technology and use my knowledge to solve challenging issues and assist organizations in achieving their objectives.
+                </MDBCardText>
+              </MDBCardBody>
+            </MDBCard>
+          </MDBRow>
+        </div>
         </div>
         <div>
         <h1 className="icons">
