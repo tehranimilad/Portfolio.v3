@@ -9,7 +9,6 @@ import { Routes, Route } from "react-router-dom";
 export default function App() {
   return (
     <div>
-      <Routes>
     <Nav />
       <div className="homepage-container">
        <div id="about-me">
@@ -22,7 +21,6 @@ export default function App() {
     <Footer />
           </div>
            </div>
-      </Routes>
     </div>
   );
 }
