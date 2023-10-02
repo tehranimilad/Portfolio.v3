@@ -5,7 +5,10 @@
   margin: 0 auto;
   display:block;
   border-radius: 150px;
-  border: 5px solid #ffffff;
+  border: 5px solid #000000;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  top: 0;
 }
 
 body {
@@ -18,7 +21,6 @@ body {
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
-  padding-top: 400px;
   position: relative;
 }
 
