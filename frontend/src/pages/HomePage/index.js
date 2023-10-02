@@ -39,7 +39,8 @@ function HomePage() {
   return (
     <div className="main-div">
       <div className="avatar-div">
-        {/* <MDBCardImage position='top' className="avatar" src={headshot}></MDBCardImage> */}
+        <MDBCardImage position='top' className="avatar" src={headshot}></MDBCardImage>
+        </div>
         <div className="animation-container">
           <h1 className="ml1">
             <span className="text-wrapper">
@@ -56,7 +57,6 @@ function HomePage() {
                 <MDBIcon fab icon="css3" /> <MDBIcon fab icon="css3-alt" /> <MDBIcon fas icon="database" /> <MDBIcon fab icon="github-square" /> <MDBIcon fab icon="html5" /> <MDBIcon fab icon="js" /> <MDBIcon fab icon="node" /> <MDBIcon fab icon="npm" /> <MDBIcon fab icon="python" /> <MDBIcon fab icon="react" /> <MDBIcon fab icon="sass" /> <MDBIcon fab icon="wordpress" /> <MDBIcon fab icon="bootstrap" />
               </h1>
         </div>
-      </div>
     </div>
   );
 }
