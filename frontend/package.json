@@ -4,6 +4,11 @@
   "description": "template for mdb-react-ui-kit",
   "private": true,
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "animejs": "^3.2.1",
+    "letterizejs": "^2.0.1",
     "browser-router": "^0.2.0",
     "mdb-react-ui-kit": "6.0.0",
     "react": "^18.1.0",
@@ -17,6 +22,12 @@
     "start": "cd frontend/ && npm run build && cd ../backend/ && node server.js",
     "frontend": "cd frontend/ && react-scripts start",
     "backend": "cd backend/ && nodemon server.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "keywords": [
     "template",
