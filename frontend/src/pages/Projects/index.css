@@ -1,12 +1,9 @@
 .projectDiv {
     height: 100vh;
     background-size: cover;
+    padding-top:120px;
 }
 
-.projectHeader {
-    font-size: 30px;
-    padding-bottom: 20px;
-}
 
 .cruiseAmerica-link {
     margin-bottom: 20px

@@ -8,8 +8,8 @@ function Projects() {
   return (
     <div className="projectDiv">
     <div class="text-center">
-      <h1 className="projectHeader">Projects</h1>
     <MDBRow>
+    <h1 className="projectHeader">Projects</h1>
       <MDBCol sm='6'>
         <MDBCard>
           <MDBCardBody class="dark">
