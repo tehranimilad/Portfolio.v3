@@ -1,4 +1,4 @@
-/* .avatar {
+.avatar {
     max-width: 20%;
     margin: 0 auto;
     border-radius: 150px;
@@ -6,27 +6,6 @@
     border: 5px solid #000000;
 }
 
-.homeHeader {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.homePageDiv {
-    height: 100vh;
-}
-
-.aboutDescription {
-    font-size: 29px;
-    padding-top: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.icons {
-    padding-top: 55px;
-}
-
-h1 {
-    font-size: 50px;
-} */
 
 .avatar {
   max-width: 20%;
