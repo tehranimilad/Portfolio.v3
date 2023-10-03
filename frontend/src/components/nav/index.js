@@ -10,7 +10,7 @@ function Nav() {
             <MDBNavbarLink href='#about-me'>About Me</MDBNavbarLink>
             <MDBNavbarLink href='#projects-section'>Projects</MDBNavbarLink>
             <MDBNavbarLink href='#connect-with-me'>Connect With Me</MDBNavbarLink>
-            <MDBNavbarLink aria-current='page' href='https://docs.google.com/document/d/1MzWaSuGeCjDPhTjd3XrxExC7DQkJxuk7/edit?usp=sharing&ouid=117772898957068889268&rtpof=true&sd=true' target="blank">Resume</MDBNavbarLink>
+            <MDBNavbarLink aria-current='page' href='https://docs.google.com/document/d/1TKMFQ6sR580VwZ-Xmw47L4l11jQ1oLBa0Fa7631GEz8/edit?usp=sharing' target="blank">Resume</MDBNavbarLink>
           </MDBNavbarNav>
       </MDBContainer>
     </MDBNavbar>
