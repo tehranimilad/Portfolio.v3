@@ -55,9 +55,7 @@ function HomePage() {
             <MDBCard className="about-me-description">
               <MDBCardBody class="dark">
                 <MDBCardText>
-                I'm a highly skilled software engineer with a background in management information systems who is 
-                committed to providing cutting-edge solutions that enhance operational efficiency and provide outcomes. 
-                I have a passion for technology and use my knowledge to solve challenging issues and assist organizations in achieving their objectives.
+                I'm an experienced software engineer with a background in management information systems. I'm dedicated to creating advanced solutions that improve efficiency and achieve goals. I use technology to solve tough problems and help organizations succeed.
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
