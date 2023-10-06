@@ -3,7 +3,8 @@ import {MDBContainer,MDBNavbar,MDBNavbarBrand,MDBNavbarNav,MDBNavbarLink,} from 
 
 function Nav() {
   return (
-    <MDBNavbar className="navTop" fixed='top' expand='lg'light bgColor='light'>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNav"></div>
       <MDBContainer fluid>
         <MDBNavbarBrand>Milad Tehrani</MDBNavbarBrand>
           <MDBNavbarNav>
@@ -13,7 +14,7 @@ function Nav() {
             <MDBNavbarLink aria-current='page' href='https://docs.google.com/document/d/1TKMFQ6sR580VwZ-Xmw47L4l11jQ1oLBa0Fa7631GEz8/edit?usp=sharing' target="blank">Resume</MDBNavbarLink>
           </MDBNavbarNav>
       </MDBContainer>
-    </MDBNavbar>
+    </nav>
   );
 }
 

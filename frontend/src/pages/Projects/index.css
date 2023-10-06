@@ -1,7 +1,8 @@
 .projectDiv {
     height: 100vh;
-    background-size: cover;
+    /* background-size: cover; */
     padding-top:70px;
+    margin-bottom: 50px;
 }
 
 .projectHeader{
