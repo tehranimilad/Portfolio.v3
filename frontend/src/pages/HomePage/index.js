@@ -50,7 +50,7 @@ function HomePage() {
             </span>
           </h1>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-          <div>
+          <div className="content-container">
           <MDBRow>
             <MDBCard className="about-me-description">
               <MDBCardBody class="dark">
@@ -62,7 +62,7 @@ function HomePage() {
           </MDBRow>
         </div>
         </div>
-        <div>
+        <div className="skills-icons">
         <h1 className="icons">
                 <h3 className="skills">Skills:</h3>
                 <MDBIcon fab icon="css3" /> <MDBIcon fab icon="css3-alt" /> <MDBIcon fas icon="database" /> <MDBIcon fab icon="github-square" /> <MDBIcon fab icon="html5" /> <MDBIcon fab icon="js" /> <MDBIcon fab icon="node" /> <MDBIcon fab icon="npm" /> <MDBIcon fab icon="python" /> <MDBIcon fab icon="react" /> <MDBIcon fab icon="sass" /> <MDBIcon fab icon="wordpress" /> <MDBIcon fab icon="bootstrap" />
