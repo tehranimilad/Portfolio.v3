@@ -7,13 +7,13 @@ import './index.css';
 function Projects() {
   return (
     <div className="projectDiv">
-    <div class="text-center">
+    <div className="text-center">
     <MDBRow>
     <h2 className="projectHeader">Projects</h2>
       <MDBCol sm='6'>
         <MDBCard>
           <MDBCardBody class="dark">
-          <img class="img-fluid" src={cruiseAmerica}></img>
+          <img className="img-fluid" src={cruiseAmerica}></img>
             <MDBCardTitle>Cruise America</MDBCardTitle>
             <MDBCardText>
             MEN-stack app with full CRUD functionality using Javascript on Node.js and Express frameworks; data stored using MongoDB database through Mongoose, and used EJS partials

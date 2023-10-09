@@ -13,3 +13,8 @@ code {
     monospace;
 }
 
+@media (max-width: 600px) {
+.footerDiv{
+    padding-top: 500px; 
+  }
+}

@@ -16,10 +16,10 @@ export default function Nav() {
 
 
   return (
-    
     <MDBNavbar fixed='top' expand='lg' light bgColor='light'>
     <MDBContainer fluid>
-      <MDBNavbarBrand href='#'>Milad Tehrani</MDBNavbarBrand>
+    <MDBIcon icon="gem" className="me-3" />
+      <MDBNavbarBrand href='#' className='text-uppercase'>Milad Tehrani</MDBNavbarBrand>
       <MDBNavbarToggler
         type='button'
         aria-expanded='false'
@@ -40,11 +40,8 @@ export default function Nav() {
           </MDBNavbarItem>
           <MDBNavbarItem>
             <MDBNavbarLink href='#connect-with-me'>Connect With Me</MDBNavbarLink>
-          
           </MDBNavbarItem>
-          
         </MDBNavbarNav>
-  
       </MDBCollapse>
       <div>
       <a href='mailto:tehranimilad92@gmail.com' target="_blank" className='me-4 text-reset'>
