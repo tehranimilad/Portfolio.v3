@@ -16,7 +16,7 @@ export default function Nav() {
 
 
   return (
-    <MDBNavbar expand='lg' light bgColor='light'>
+    <MDBNavbar fixed='top' expand='lg' light bgColor='light'>
     <MDBContainer fluid>
       <MDBNavbarBrand href='#'>Milad Tehrani</MDBNavbarBrand>
       <MDBNavbarToggler
