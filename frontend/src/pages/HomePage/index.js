@@ -54,7 +54,7 @@ function HomePage() {
           <MDBRow>
             <MDBCard className="about-me-description">
               <MDBCardBody class="dark">
-                <MDBCardText>
+                <MDBCardText class="text-sm-start">
                 I'm an experienced software engineer with a background in management information systems. I'm dedicated to creating advanced solutions that improve efficiency and achieve goals. I use technology to solve tough problems and help organizations succeed.
                 </MDBCardText>
               </MDBCardBody>
