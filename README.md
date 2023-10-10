@@ -9,6 +9,7 @@ Hello, my name is Milad Tehrani and this is my re-vamped portfolio.
 * React
 * Node
 * Anime.js
+* MDBootstrap
 
 ### Approach Taken: 
 
