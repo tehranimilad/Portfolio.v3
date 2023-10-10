@@ -15,9 +15,6 @@ code {
 }
 
 @media (max-width: 600px) {
-  .card .card-body .card-text {
-    font-size:10px;
-  }
 
 .footerDiv{
     padding-top: 500px; 
