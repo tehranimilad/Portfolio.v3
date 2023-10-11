@@ -22,11 +22,6 @@ body {
   position: relative;
 }
 
-.animation-container {
-  text-align: center;
-  margin-bottom: auto;
-}
-
 .ml1 {
   font-weight: 900;
   font-size: 3.5em;
@@ -75,18 +70,6 @@ body {
   top:auto;
 }
 
-.about-me-description{
-  width: 60%;
-  display:block;
-  margin: 0 auto;
-  margin-top:50px;
-  font-size: 30px;
-}
-
-.content-container {
-  text-align: center;
-  margin-bottom: auto;
-}
 
 .skills-icons {
   text-align: center;

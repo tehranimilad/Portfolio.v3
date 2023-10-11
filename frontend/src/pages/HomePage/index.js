@@ -45,16 +45,16 @@ function HomePage() {
           <h1 className="ml1">
             <span className="text-wrapper">
               <span className="line line1"></span>
-              <span className="letters">Hi, my name is Milad and I'm a Software Engineer</span>
+              <span className="letters">Hi, I'm Milad and I'm a Software Engineer</span>
               <span className="line line2"></span>
             </span>
           </h1>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
           <div className="content-container">
           <MDBRow>
-            <MDBCard className="about-me-description">
+            <MDBCard>
               <MDBCardBody class="dark">
-                <MDBCardText class="text-sm-start">
+                <MDBCardText className="about-me-description">
                 I'm an experienced software engineer with a background in management information systems. I'm dedicated to creating advanced solutions that improve efficiency and achieve goals. I use technology to solve tough problems and help organizations succeed.
                 </MDBCardText>
               </MDBCardBody>
