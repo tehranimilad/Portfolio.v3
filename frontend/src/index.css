@@ -58,7 +58,7 @@ code {
 
 @media (max-width: 989px) {
 .about-me-description{
-  font-size: 15px;
+  font-size: 11px;
   padding: 2%;
 }
 
@@ -89,7 +89,7 @@ color: white;
 }
 
 .letters {
-  font-size: 20px;
+  font-size: 15px;
   white-space: nowrap;
 }
 }
