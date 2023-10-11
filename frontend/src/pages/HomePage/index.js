@@ -35,7 +35,6 @@ function HomePage() {
         delay: 1000
       });
   }, []);
-
   return (
     <div className="main-div">
       <div className="avatar-div">
