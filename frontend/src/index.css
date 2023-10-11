@@ -1,11 +1,10 @@
 
-@media (min-width: 800px){
+@media (min-width: 990px){
 body {
   margin: 0;
   font-family: Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* overflow: visible; */
   overflow-x: hidden;
 }
 
@@ -31,7 +30,7 @@ code {
   }
 
 .letters {
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .animation-container {
@@ -39,12 +38,44 @@ code {
   margin-bottom: auto;
   white-space:break-spaces;
 }
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 2em;
+  color: white;
+  }
+  
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background-color: #ffffff;
+  transform-origin: 0 0;
+}
 }
 
-@media (max-width: 799px) {
+@media (max-width: 989px) {
 .about-me-description{
   font-size: 15px;
   padding: 2%;
+}
+
+.ml1 .letter {
+display: inline-block;
+line-height: 2em;
+color: white;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #ffffff;
+  transform-origin: 0 0;
 }
 
 .footerDiv{
