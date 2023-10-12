@@ -10,7 +10,8 @@
 }
 
 body {
-  background-color: rgb(36, 46, 50);
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(173,173,173,1) 66%);
 }
 
 .main-div {
@@ -63,4 +64,3 @@ body {
 
 .ml1 .line1 { top: 0; }
 .ml1 .line2 { bottom: 0; }
-
