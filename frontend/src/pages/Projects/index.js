@@ -51,7 +51,6 @@ function Projects() {
     </h1>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    {/* <h2 className="projectHeader">Projects</h2> */}
       <MDBCol sm='6'>
         <MDBCard>
           <MDBCardBody class="dark">
