@@ -4,9 +4,13 @@ import headshot from './assets/headshot.png';
 import { MDBIcon } from 'mdb-react-ui-kit';
 import './index.css';
 import anime from "animejs";
+import ReactGA from 'react-ga';
+
 
 function HomePage() {
   useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+
     var textWrapper = document.querySelector('.ml1 .letters');
     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
     
