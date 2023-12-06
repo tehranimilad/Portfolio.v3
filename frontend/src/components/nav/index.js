@@ -42,7 +42,7 @@ export default function Nav() {
             <MDBNavbarLink href='#connect-with-me'>Connect With Me</MDBNavbarLink>
           </MDBNavbarItem>
           <MDBNavbarItem>
-          <MDBNavbarLink aria-current='page' href='https://docs.google.com/document/d/1SXpUz8avYNYO3IM4YLtjReMj8IUGMw28Wkj6mvJC4sE/edit' target="blank">Resume</MDBNavbarLink>
+          <MDBNavbarLink aria-current='page' href='https://drive.google.com/file/d/1wSd6FniKuV6UD7K012Da-vNfTtxcALRE/view?usp=sharing' target="blank">Resume</MDBNavbarLink>
           </MDBNavbarItem>
         </MDBNavbarNav>
       </MDBCollapse>
